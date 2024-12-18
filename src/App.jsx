@@ -1,9 +1,10 @@
 import "./App.css";
+import { OfficeTour } from "./components/OfficeTour";
 
 function App() {
   return (
     <>
-      <h1 className="text-red-500">welcome</h1>
+      <OfficeTour />
     </>
   );
 }
