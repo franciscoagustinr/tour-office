@@ -19,7 +19,7 @@ export const OfficeTour = () => {
   return (
     <a-scene>
       {/* Imagen 360° actual */}
-      <a-sky src={`url(${currentImage})`} rotation="0 -90 0"></a-sky>
+      <a-sky src={`url(${currentImage})`} rotation="0 -90 0" />
 
       {/* Hotspot para ir a la sala de reuniones */}
       <a-entity
@@ -30,7 +30,7 @@ export const OfficeTour = () => {
         class="hotspot"
         event-set__click={`src: url(${scenes.desks})`}
         onClick={() => setCurrentImage(scenes.desks)}
-      ></a-entity>
+      />
 
       {/* Hotspot para volver al lobby */}
       <a-entity
@@ -40,11 +40,11 @@ export const OfficeTour = () => {
         text="value: Lobby; align: center; width: 4"
         class="hotspot"
         onClick={() => setCurrentImage(scenes.entry)}
-      ></a-entity>
+      />
 
       {/* Controladores básicos para VR y web */}
       <a-camera position="0 1.6 0">
-        <a-cursor></a-cursor>
+        <a-cursor />
       </a-camera>
     </a-scene>
   );
