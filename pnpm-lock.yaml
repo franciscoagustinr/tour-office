@@ -8,6 +8,9 @@ dependencies:
   aframe:
     specifier: ^1.6.0
     version: 1.6.0
+  aframe-html-shader:
+    specifier: ^0.2.0
+    version: 0.2.0
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -890,6 +893,10 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
+
+  /aframe-html-shader@0.2.0:
+    resolution: {integrity: sha512-yR3t0RhzZy6wjYbpeLyYsl0QEv++Rbo1UEov9sdqOZHgWQ4Gz7asT4KH03MtAoiW2zYnAp7Hywi8v9+5Ac8e7g==}
+    dev: false
 
   /aframe@1.6.0:
     resolution: {integrity: sha512-+P1n2xKGZQbCNW4lTwfue9in2KmfAwYD/BZOU5uXKrJCTegPyUZZX/haJRR9Rb33ij+KPj3vFdwT5ALaucXTNA==}
