@@ -20,7 +20,7 @@ export const Welcome = ({ setIsPopUpOpen }) => {
         <span className="relative top-2 pl-2 text-4xl ">🥽</span>
       </h1>
       <p className="font-light text-sm">now available on VR!</p>
-      <div className=" relative pt-2 pb-7 flex justify-center">
+      <div className=" relative pt-2 pb-3 flex justify-center">
         <a
           className="absolute active:scale-90 transition-transform hover:scale-105"
           href="https://agencia.portinos.com/"
