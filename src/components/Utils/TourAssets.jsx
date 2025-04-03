@@ -30,48 +30,55 @@ export const hotspots = {
   entry: [
     {
       position: "6 1 -2.2",
+      rotation: "0 -70 -3",
       color: "red",
       label: "Desks",
       scene: "desks",
     },
     {
       position: "-6 1 -1.8",
+      rotation: "-10 60 4",
       color: "yellow",
-      label: "Desks",
+      label: "Meeting Rooms",
       scene: "meetingRoom",
     },
   ],
   desks: [
     {
-      position: "10.5 0.25 3",
+      position: "10.5 1.25 3",
+      rotation: "0 -120",
       color: "blue",
-      label: "Go to Workstation",
+      label: "Workstation",
       scene: "workStation",
     },
     {
       position: "-5 1 -5.5",
+      rotation: "0 45",
       color: "orange",
-      label: "Return to Entry",
+      label: "Entry",
       scene: "entry",
     },
   ],
   workStation: [
     {
       position: "-8 1 -2.5",
+      rotation: "0 70",
       color: "green",
-      label: "Return to Desks",
+      label: "Desks",
       scene: "desks",
     },
   ],
   meetingRoom: [
     {
       position: "-4.7 1 -10",
+      rotation: "0 40",
       color: "yellow",
       label: "Dining Table",
       scene: "diningTable",
     },
     {
       position: "7 1 -5",
+      rotation: "0 -50",
       color: "orange",
       label: "Entry",
       scene: "entry",
@@ -79,9 +86,10 @@ export const hotspots = {
   ],
   diningTable: [
     {
-      position: "-15 0 5",
-      color: "purple",
-      label: "Entry",
+      position: "-10 0 5",
+      rotation: "0 140",
+      color: "green",
+      label: "Meeting Rooms",
       scene: "meetingRoom",
     },
   ],

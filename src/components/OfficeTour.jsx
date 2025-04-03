@@ -25,7 +25,8 @@ export const OfficeTour = () => {
           geometry="primitive: sphere; radius: 0.4"
           material={`color: ${hotspot.color}`}
           position={hotspot.position}
-          text={`value: ${hotspot.label}; align: center; width: 4`}
+          rotation={hotspot.rotation}
+          text={`value: ${hotspot.label}; align: center; width: 10; baseline: center; zOffset: 1`}
           class="hotspot"
           onClick={() => setCurrentScene(hotspot.scene)}
         />
